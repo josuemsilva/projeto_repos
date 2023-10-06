@@ -7,7 +7,11 @@ export default function RoutesApp() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/projeto_repos" Component={Main} />
-        <Route exact path="/repositorio/:name" Component={Repositorio} />
+        <Route
+          exact
+          path="projeto_repos/repositorio/:name"
+          Component={Repositorio}
+        />
       </Routes>
     </BrowserRouter>
   );
