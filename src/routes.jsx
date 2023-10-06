@@ -6,7 +6,7 @@ export default function RoutesApp() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/projeto_repos" Component={Main} />
+        <Route exact path="/" Component={Main} />
         <Route exact path="/repositorio/:name" Component={Repositorio} />
       </Routes>
     </BrowserRouter>
