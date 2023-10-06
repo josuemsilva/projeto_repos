@@ -68,7 +68,7 @@ export default function Repositorio() {
   if (loading) {
     return (
       <Loading>
-        <h1>Carregando...</h1>
+        <h1>Carregando..</h1>
       </Loading>
     );
   }
